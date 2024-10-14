@@ -1,0 +1,9 @@
+name: teste-buntu
+
+services:
+  ubuntu:
+    image: ubuntu:latest
+    container_name: teste
+    stdin_open: true     # Mantém o STDIN aberto
+    tty: true            # Habilita o modo TTY para a interação com o terminal
+    
